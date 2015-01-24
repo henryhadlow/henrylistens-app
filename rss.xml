@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss xmlns:media="http://search.yahoo.com/mrss/" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>Henry listens</title>
+        <link>https://henryhadlow.github.io/henrylistens/rss.xml</link>
+        <description>
+            A podcast of podcasts. Things @henryhadlow likes.
+        </description>
+        <itunes:summary>
+            A podcast of podcasts. Things @henryhadlow likes.
+        </itunes:summary>
+        <itunes:author>@henrylistens</itunes:author>
+        <itunes:owner>
+            <itunes:name>Henry Hadlow</itunes:name>
+            <itunes:email>henrylistens@gmail.com</itunes:email>
+        </itunes:owner>
+        <language>en-gb</language>
+        <image>
+            <url>
+                https://henryhadlow.github.io/henrylistens/img/henrylistens.jpg
+            </url>
+            <title>Henry listens</title>
+            <link>https://henryhadlow.github.io/henrylistens</link>
+        </image>
+        <itunes:image href="https://henryhadlow.github.io/henrylistens/img/henrylistens.jpg" />
+        <copyright>(C) Henry Hadlow 2014</copyright>
+        <pubDate>Sat, 19 Apr 2014 10:00:00 +0100</pubDate>
+        <itunes:category text="Society &amp; Culture" />
+        <itunes:keywords>curated, aggregator</itunes:keywords>
+        <media:keywords>curated, aggregator</media:keywords>
+        <itunes:explicit>no</itunes:explicit>
+        <media:rating scheme="urn:simple">nonadult</media:rating>
+        <atom:link href="https://henryhadlow.github.io/henrylistens/rss.xml" rel="self" type="application/rss+xml" />
+
+        <item>
+            <title>Pienaar: 6 Apr 14 with Grant Shapps</title>
+            <description>John Pienaar speaks to the Conservative Party Chairman, Grant Shapps and Lord Digby Jones.</description>
+            <itunes:subtitle>John Pienaar speaks to the Conservative Party Chairman, Grant Shapps and Lord Digby Jones....</itunes:subtitle>
+            <itunes:summary>John Pienaar speaks to the Conservative Party Chairman, Grant Shapps and Lord Digby Jones.</itunes:summary>
+            <pubDate>Sun, 06 Apr 2014 11:15:00 +0100</pubDate>
+            <itunes:duration>48:41</itunes:duration>
+            <enclosure url="http://downloads.bbc.co.uk/podcasts/fivelive/pienaar/pienaar_20140406-1115a.mp3" length="23458693" type="audio/mpeg" />
+            <guid isPermaLink="false">http://downloads.bbc.co.uk/podcasts/fivelive/pienaar/pienaar_20140406-1115.mp3</guid>
+            <link>http://downloads.bbc.co.uk/podcasts/fivelive/pienaar/pienaar_20140406-1115a.mp3</link>
+            <media:content url="http://downloads.bbc.co.uk/podcasts/fivelive/pienaar/pienaar_20140406-1115a.mp3" fileSize="23458693" type="audio/mpeg" medium="audio" expression="full" duration="2921" />
+            <itunes:explicit>no</itunes:explicit>
+            <itunes:author>BBC Radio 5 live</itunes:author>
+        </item>
+
+        <item>
+            <title>Tony Benn on socialism – audio interview from 2006</title>
+            <description>John Pienaar speaks to the Conservative Party Chairman, Grant Shapps and Lord Digby Jones.</description>
+            <itunes:subtitle>In this wide-ranging interview from 2006 Tony Benn discusses socialism, his own development in politics and why he believes that there is no mainstream party of the genuine left</itunes:subtitle>
+            <itunes:summary>In this wide-ranging interview from 2006 Tony Benn discusses socialism, his own development in politics and why he believes that there is no mainstream party of the genuine left</itunes:summary>
+            <pubDate>Fri, 14 Mar 2014 09:47:21 GMT</pubDate>
+            <itunes:duration>01:04:07</itunes:duration>
+            <enclosure url="http://download.guardian.co.uk/audio/kip/politics/series/politicsweekly/1394789493353/7632/benn.mp3" length="46108139" type="audio/mpeg" />
+            <guid isPermaLink="false">http://download.guardian.co.uk/audio/kip/politics/series/politicsweekly/1394789493353/7632/benn.mp3</guid>
+            <link>http://download.guardian.co.uk/audio/kip/politics/series/politicsweekly/1394789493353/7632/benn.mp3</link>
+            <media:content url="http://download.guardian.co.uk/audio/kip/politics/series/politicsweekly/1394789493353/7632/benn.mp3" type="audio/mpeg" medium="audio" expression="full" duration="3847" />
+            <itunes:author>guardian.co.uk</itunes:author>
+            <itunes:explicit>no</itunes:explicit>
+            <itunes:keywords>Tony Benn, Labour, Politics</itunes:keywords>
+        </item>
+
+        <item>
+            <title>Joby Ogwyn: The Ascent</title>
+            <description>A climber attempts to reach the top of Mount Everest.</description>
+            <itunes:subtitle>A climber attempts to reach the top of Mount Everest.</itunes:subtitle>
+            <itunes:summary>A climber attempts to reach the top of Mount Everest.</itunes:summary>
+            <pubDate>Tue, 15 Apr 2014 20:00:03 +0000</pubDate>
+            <enclosure url="http://feeds.themoth.org/~r/themothpodcast/~5/4hxGTid_KTU/moth-podcast-326-joby-ogwyn.mp3" length="10501816" type="audio/mpeg" />
+            <guid isPermaLink="false">http://feeds.themoth.org/~r/themothpodcast/~5/4hxGTid_KTU/moth-podcast-326-joby-ogwyn.mp3</guid>
+            <link>http://feeds.themoth.org/~r/themothpodcast/~5/4hxGTid_KTU/moth-podcast-326-joby-ogwyn.mp3</link>
+            <media:content url="http://feeds.themoth.org/~r/themothpodcast/~5/4hxGTid_KTU/moth-podcast-326-joby-ogwyn.mp3" fileSize="10501816" type="audio/mpeg" />
+            <itunes:author>The Moth</itunes:author>
+            <itunes:explicit>no</itunes:explicit>
+            <itunes:keywords>Podcasts, WNYC</itunes:keywords>
+        </item>
+    </channel>
+</rss>
