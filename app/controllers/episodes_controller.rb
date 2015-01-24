@@ -1,29 +1,19 @@
 class EpisodesController < ApplicationController
+
   def index
-    lat = 47.858205
-    lng = 2.294359
-    puts "Latitude: #{lat}, longitude: #{lng}"
-
-    # Access foursquare API using latitude and longitude
-    url = "https://api.foursquare.com/v2/venues/search
-           ?client_id = WU2GPFLW4FXM1M0Z3AACODQNF3BLOCW5B3NYXFRT1LUOQZ4T
-           &client_secret = 1LYYB0DHQWNYKJ35NJSYTQRKYBOSYQVJV4RUFBRMOOR1QDSP
-           &v=20130815
-           &ll=#{lat},#{lng}"
-    url.delete!(" ").delete!("\n")
-    uri = URI(url)
-
-    # Access the data returned from foursquare
-    json = Net::HTTP.get(uri)
-    response = JSON.parse(json)
-
-    # f = File.new("output.txt", "w+")
-    # f.write response.to_yaml
-
-    venue = response["response"]["venues"][0]
-    puts venue["name"]
   end
 
   def import
+    feedly_user_id = Rails.application.secrets.feedly_user_id
+    feedly_access_token = Rails.application.secrets.feedly_access_token
+
+    url = "https://cloud.feedly.com/v3/streams/ids?streamId=user/" + feedly_user_id + "/tag/global.saved"
+
+    # Get a list of starred ids from feedly API using my credentials
+    starred_ids = HTTParty.get(url.to_str,
+    :headers => { 'Content-Type' => 'application/json',
+                  'Authorization' => feedly_access_token } )
+
+    @output = JSON.pretty_generate(starred_ids)
   end
 end
