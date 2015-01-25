@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20150124110157) do
+ActiveRecord::Schema.define(version: 20150125132956) do
 
   create_table "episodes", force: :cascade do |t|
     t.string   "feedly_id"
@@ -19,6 +19,8 @@ ActiveRecord::Schema.define(version: 20150124110157) do
     t.text     "description"
     t.datetime "created_at",  null: false
     t.datetime "updated_at",  null: false
+    t.text     "json"
+    t.string   "show"
   end
 
 end
